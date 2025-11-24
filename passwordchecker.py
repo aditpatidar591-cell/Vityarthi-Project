@@ -28,19 +28,19 @@ while True:
 
     # --- RESULT MAPPING ---
     if score <= 2:
-        rating = "Weak 🔴"
+        rating = "Weak "
         crack_time = "Instant"
         hacker_cost = " free of cost (Anyone can try)"
         MY_OPINION = "Too easy to guess. Try something better."
 
     elif score <= 4:
-        rating = "Medium 🟠"
+        rating = "Medium "
         crack_time = "Around 2–3 days"
         hacker_cost = " (40 - 50) k rupees (Electricity + patience)"
         MY_OPINION = "Okay for small stuff, not for anything serious."
 
     else:
-        rating = "Strong 🟢"
+        rating = "Strong "
         crack_time = "Thousands of years"
         hacker_cost = "TOO MUCH COST (IN BILLIONS)"
         MY_OPINION = " your password is Super strong. You’re safe."
@@ -58,4 +58,5 @@ while True:
     print("2. CRACK TIME:  ", crack_time)
     print("3. HACKER COST: ", hacker_cost)
     print("4. MY_OPINION:     ",MY_OPINION)
+
     print("-" * 30)
